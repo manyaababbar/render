@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: flask-mongo-app
+    runtime: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    envVars:
+      - key: MONGO_URI
+        value: mongodb+srv://workviseraws:0NXOubYehEVjby4x@cluster0.oi0xh0i.mongodb.net/

@@ -1,21 +1,24 @@
-# Python
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Python cache
 __pycache__/
 *.py[cod]
-*.log
+*.pyo
 
-# Virtual environment
-
-.env/
-
-# Mongo export or fetch files
-
-
-# VS Code settings
+# IDE files
 .vscode/
+*.swp
 
-# Git
-.git/
-
-# OS-specific
+# System files
 .DS_Store
 Thumbs.db
+
+# Environment variables
+.env
+
+# Render build files (if any)
+build/
