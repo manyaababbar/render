@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environment
+
+.env/
+
+# Mongo export or fetch files
+
+
+# VS Code settings
+.vscode/
+
+# Git
+.git/
+
+# OS-specific
+.DS_Store
+Thumbs.db
